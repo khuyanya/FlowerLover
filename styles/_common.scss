@@ -1,0 +1,36 @@
+$primary-font: 'Playfair Display', serif;
+$secondary-font: 'Source Sans 3', sans-serif;
+
+$background-color: #000;
+$button-and-text-color: #A93B59;
+$color-text: #FFFFFF;
+$second-color-text: #F5EBEB;
+$landing-color: #B96A7F;
+$landing-second-color: #C9A1AC;
+$accent-color: #55B8FF;
+$accent-color: #6F6567;
+
+body {
+    font-family: $primary-font;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 64px;
+    // max-width: 1440px+64px;
+    max-width: 1568px;
+    background-color: $background-color;
+}
+
+a {
+    color: $color-text;
+    text-decoration: none;
+
+}
+
+h1 {
+    color: $button-and-text-color;
+    font-size: 48px;
+    font-style: italic;
+    line-height: 60px;
+}

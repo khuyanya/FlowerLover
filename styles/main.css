@@ -1,1 +1,54 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  font-family: "Playfair Display", serif;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 64px;
+  max-width: 1568px;
+  background-color: #000;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+h1 {
+  color: #A93B59;
+  font-size: 48px;
+  font-style: italic;
+  line-height: 60px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0 110px 0;
+}
+nav .menu a {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  margin-left: 32px;
+}
+
+h1 span {
+  color: #F5EBEB;
+  font-size: 86px;
+  font-style: normal;
+  text-transform: uppercase;
+  padding: 12px 15px 24px 120px;
+  display: inline-block;
+}
+
+p {
+  color: #F5EBEB;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-left: 105px;
+  padding-bottom: 42px;
+}/*# sourceMappingURL=main.css.map */
