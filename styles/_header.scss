@@ -35,3 +35,16 @@ p {
     padding-left: 105px;
     padding-bottom: 42px;
 }
+
+button {
+    color: $second-color-text;
+    font-family: $secondary-font;
+    font-size: 24px;
+    width: 437px;
+    padding: 16px 32px;
+    border-radius: 15px;
+    background: $button-and-text-color;
+    border: none;
+    margin-left: 108px;
+    text-transform: uppercase;
+}
